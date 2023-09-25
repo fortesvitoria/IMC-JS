@@ -1,0 +1,23 @@
+/* importa fonte primaria */
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* importa fonte secundaria */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap');
+
+/* variáveis */
+:root {
+    --fonte-primaria: 'Croissant One', cursive;
+    --fonte-secundaria: 'Montserrat Alternates', sans-serif;
+}
+
+/* css geral */
+
+body {
+    font-family: var(--fonte-secundaria);
+}
+
+h1 {
+    font-family: var(--fonte-primaria);
+    padding: 0.5em;
+    text-align: center;
+}
